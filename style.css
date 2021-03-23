@@ -236,14 +236,14 @@ th {
 .sport-subject {
     font-family: 'Noto Sans KR', sans-serif;
     color: #135bb9;
-    font-size: 1.94px;
+    font-size: 1.94vw;
     font-weight: 600;
     width: 20%;
 }
 
 .sport-teacher {
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1.66px;
+    font-size: 1.66vw;
     font-weight: 300;
     color: black;
     width: 25%;
@@ -251,7 +251,7 @@ th {
 
 .sport-code {
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1.66px;
+    font-size: 1.66vw;
     font-weight: 500;
     width: 25%;
     color: black;
@@ -259,7 +259,7 @@ th {
 
 .sport-password {
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1.66px;
+    font-size: 1.66vw;
     font-weight: 400;
     width: 10%;
     color: black;
