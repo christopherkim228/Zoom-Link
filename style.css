@@ -1,0 +1,308 @@
+body {
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+#app {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    margin-top: 6%;
+    margin-left: 10%;
+    padding-top: -16%;
+    width: 80%;
+    height: 1500px;
+    /* background-color: #BBB; */
+    border-radius: 10px;
+    position: absolute;
+}
+
+.container {
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5%;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    /* border: black 1px solid */
+}
+
+.subject {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #13b969;
+    font-size: 1.94vw;
+    font-weight: 600;
+    width: 20%;
+}
+
+.teacher {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.66vw;
+    font-weight: 300;
+    color: black;
+    width: 25%;
+}
+
+.code {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.66vw;
+    font-weight: 500;
+    width: 25%;
+    color: black;
+}
+
+.password {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.66vw;
+    font-weight: 400;
+    width: 10%;
+    color: black;
+}
+
+i {
+    color: #000;
+    position: absolute;
+    font-size: 2.5vw;
+    top: 13px;
+    left: 14px;
+}
+
+.circle-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.circle-btn:hover {
+    background-color: #EEE;
+    cursor: pointer;
+}
+
+.copy,
+.link {
+    width: 10%
+}
+
+.copy>.circle-btn {
+    left: calc(-100% + 50px);
+    top: 2px
+}
+
+.password p {
+    left: -50%;
+    position: relative;
+}
+
+.link i {
+    font-size: 36px;
+    top: 7px;
+    left: 7px;
+}
+
+#title {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    vertical-align: middle;
+    line-height: 100px;
+
+}
+
+th {
+    text-align: center;
+}
+
+.club-container:hover {
+    background-color: #ccc
+}
+
+.club {
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5%;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.club-subject {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #135bb9;
+    font-size: 1.94vw;
+    font-weight: 600;
+    width: 20%;
+}
+
+.club-teacher {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.66vw;
+    font-weight: 300;
+    color: black;
+    width: 25%;
+}
+
+.club-code {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.66vw;
+    font-weight: 500;
+    width: 25%;
+    color: black;
+}
+
+.club-password {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.66vw;
+    font-weight: 400;
+    width: 10%;
+    color: black;
+}
+
+.club-copy,
+.club-link {
+    width: 10%
+}
+
+.club-copy>.club-circle-btn {
+    left: calc(-100% + 50px);
+    top: 2px
+}
+
+.club-password p {
+    left: -50%;
+    position: relative;
+}
+
+.club-link i {
+    font-size: 36px;
+    top: 7px;
+    left: 7px;
+}
+
+.club-circle-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.club-circle-btn:hover {
+    background-color: #DDD;
+    cursor: pointer;
+}
+
+.clubs {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-out;
+}
+
+
+
+
+
+
+.sport-container:hover {
+    background-color: #ccc
+}
+
+.sport {
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5%;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.sport-subject {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #135bb9;
+    font-size: 28px;
+    font-weight: 600;
+    width: 20%;
+}
+
+.sport-teacher {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: black;
+    width: 25%;
+}
+
+.sport-code {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    width: 25%;
+    color: black;
+}
+
+.sport-password {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    width: 10%;
+    color: black;
+}
+
+.sport-copy,
+.sport-link {
+    width: 10%
+}
+
+.sport-copy>.sport-circle-btn {
+    left: calc(-100% + 50px);
+    top: 2px
+}
+
+.sport-password p {
+    left: -50%;
+    position: relative;
+}
+
+.sport-link i {
+    font-size: 36px;
+    top: 7px;
+    left: 7px;
+}
+
+.sport-circle-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.sport-circle-btn:hover {
+    background-color: #DDD;
+    cursor: pointer;
+}
+
+.sports {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-out;
+}
